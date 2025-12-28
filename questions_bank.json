@@ -1,0 +1,110 @@
+[
+  {
+    "id": "values_hierarchy",
+    "dimension": "values",
+    "text": "When two values conflict in real life (e.g., freedom vs closeness, ambition vs presence), which one usually wins in your actual decisions?",
+    "is_primary": true,
+    "branch": "values_example_followup"
+  },
+  {
+    "id": "values_example_followup",
+    "dimension": "values",
+    "text": "Can you share one recent moment where those values conflicted, and what you actually did?",
+    "is_primary": false
+  },
+  {
+    "id": "cost_tolerance",
+    "dimension": "cost",
+    "text": "What ongoing discomfort have you historically accepted to stay connected to someone?",
+    "is_primary": true,
+    "branch": "cost_line_followup"
+  },
+  {
+    "id": "cost_line_followup",
+    "dimension": "cost",
+    "text": "Where is your line? What discomfort is no longer acceptable for you?",
+    "is_primary": false
+  },
+  {
+    "id": "repair_capacity",
+    "dimension": "repair",
+    "text": "After conflict, who usually moves first to repair—and what happens if they don’t?",
+    "is_primary": true,
+    "branch": "repair_risk_followup"
+  },
+  {
+    "id": "repair_risk_followup",
+    "dimension": "repair",
+    "text": "What feels risky about being the one who initiates repair?",
+    "is_primary": false
+  },
+  {
+    "id": "emotional_labor",
+    "dimension": "cost",
+    "text": "In relationships, what do you notice yourself tracking or managing that your partner often doesn’t?",
+    "is_primary": true
+  },
+  {
+    "id": "closeness_numeric",
+    "dimension": "closeness",
+    "text": "On a 0–10 scale, how much day-to-day closeness do you want? What does “too much” look like in practice?",
+    "is_primary": true,
+    "branch": "closeness_gap_followup"
+  },
+  {
+    "id": "closeness_gap_followup",
+    "dimension": "closeness",
+    "text": "When closeness or space needs differ, what tends to happen between you? How do you negotiate it?",
+    "is_primary": false
+  },
+  {
+    "id": "power_decisions",
+    "dimension": "power",
+    "text": "When there’s a meaningful disagreement, how is the final decision usually made?",
+    "is_primary": true
+  },
+  {
+    "id": "stress_behavior",
+    "dimension": "stress",
+    "text": "Under prolonged stress (money, health, work), what do you tend to need more of—and what do you tend to withdraw from?",
+    "is_primary": true,
+    "branch": "stress_duration_followup"
+  },
+  {
+    "id": "stress_duration_followup",
+    "dimension": "stress",
+    "text": "What tends to happen between you when stress lasts longer than expected (weeks or months)?",
+    "is_primary": false
+  },
+  {
+    "id": "pattern_role",
+    "dimension": "pattern",
+    "text": "What familiar role do you notice yourself slipping into across different relationships?",
+    "is_primary": true
+  },
+  {
+    "id": "future_self",
+    "dimension": "future",
+    "text": "Imagine this relationship exactly as it is today, three years from now. What feels nourishing? What feels heavy?",
+    "is_primary": true
+  },
+  {
+    "id": "agency_choice",
+    "dimension": "agency",
+    "text": "If nothing changed, would you still actively choose this relationship?",
+    "is_primary": true,
+    "branch": "agency_clarify_followup"
+  },
+  {
+    "id": "agency_clarify_followup",
+    "dimension": "agency",
+    "text": "What would need to change for this to feel like a clear yes?",
+    "is_primary": false
+  },
+  {
+    "id": "mirror_correction",
+    "dimension": "meta",
+    "text": "If I missed it, what should I understand differently? (Optional)",
+    "is_primary": false
+  }
+]
