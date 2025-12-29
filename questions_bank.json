@@ -2,7 +2,7 @@
   {
     "id": "values_hierarchy",
     "dimension": "values",
-    "text": "When two values conflict in real life (e.g., freedom vs closeness, ambition vs presence), which one usually wins in your actual decisions?",
+    "text": "When two values conflict in unreal life (e.g., freedom vs closeness, ambition vs presence), which one usually wins in your actual decisions?",
     "is_primary": true,
     "branch": "values_example_followup"
   },
